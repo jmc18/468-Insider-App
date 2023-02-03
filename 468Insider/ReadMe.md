@@ -26,5 +26,7 @@ The "ApplicationServiceRegistration" class contains all the service registration
 This project contains all the domain related information like the entity models.
 
 #### Infrasctructure folder
-The NJSFDA_Electronic_Contracts.Infrastructure project contains all actual integration logic. Any code interacting with a database or IO should be in here. The repositories that are used in the Core project reside here. 
+The 468Insider.Infrastructure project contains all actual integration logic. Any code interacting with a database or IO should be in here. The repositories that are used in the Core project reside here. 
 The base repository can be used for any entities that use this format but can be overridden as well. Each entity can optionally have logic in its specific implementation using its own repository.
+You need to use this command to generate the new entities of the DB
+`Scaffold-DbContext "Name=ConnectionStrings:468InsiderDB" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Repositories -Context Admin468InsiderDbContext -DataAnnotations -ContextDir "./" -v -f`

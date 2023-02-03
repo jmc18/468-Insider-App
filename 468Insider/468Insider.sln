@@ -12,17 +12,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{F443069C-ADD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FAA9D7B8-A246-4100-AC8E-604988C3294E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "468Insider.Core", "468Insider.Core\468Insider.Core.csproj", "{0D2B7C43-AB83-42C9-91FD-CEAE979B0AF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "468Insider.Core", "468Insider.Core\468Insider.Core.csproj", "{0D2B7C43-AB83-42C9-91FD-CEAE979B0AF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "468Insider.Domain", "468Insider.Domain\468Insider.Domain.csproj", "{A2844BCD-D77E-45CA-8C95-936274A2B5AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "468Insider.Domain", "468Insider.Domain\468Insider.Domain.csproj", "{A2844BCD-D77E-45CA-8C95-936274A2B5AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6EBBB59E-6223-4223-990C-B90532DD3C34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "468Insider.Infrastructure", "468Insider.Infrastructure\468Insider.Infrastructure.csproj", "{4B19787F-DB32-433C-A44C-09B86C97CB83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "468Insider.Infrastructure", "468Insider.Infrastructure\468Insider.Infrastructure.csproj", "{4B19787F-DB32-433C-A44C-09B86C97CB83}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{AF96DF34-44FA-46FB-9EAC-6179E0FD6894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "468Insider.API", "468Insider.API\468Insider.API.csproj", "{8E89F653-5612-4F37-ABAA-D215D25362D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "468Insider.API", "468Insider.API\468Insider.API.csproj", "{8E89F653-5612-4F37-ABAA-D215D25362D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
