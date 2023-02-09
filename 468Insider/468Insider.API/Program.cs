@@ -1,6 +1,19 @@
 using _468Insider.Core;
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .WriteTo.Console()
+    .CreateBootstrapLogger();
+
+Log.Information("Web application starting.");
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog((ContextBoundObject, LoggerConfiguration) => LoggerConfiguration
+    .MinimumLevel.Debug()
+    .WriteTo.Console()
+    .ReadFrom.Configuration(ContextBoundObject.Configuration));
 
 // Add services to the container.
 
@@ -17,6 +30,11 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+else
+{
+    app.UseDefaultFiles();
+    app.UseStaticFiles();
 }
 
 app.UseHttpsRedirection();
