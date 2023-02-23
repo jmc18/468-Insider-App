@@ -17,7 +17,6 @@
   <ItemGroup>
     <ProjectReference Include="..\468Insider.Common\468Insider.Common.csproj" />
     <ProjectReference Include="..\468Insider.Domain\468Insider.Domain.csproj" />
-    <ProjectReference Include="..\468Insider.Infrastructure\468Insider.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

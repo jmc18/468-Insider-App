@@ -23,6 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\468Insider.Common\468Insider.Common.csproj" />
+    <ProjectReference Include="..\468Insider.Core\468Insider.Core.csproj" />
     <ProjectReference Include="..\468Insider.Domain\468Insider.Domain.csproj" />
   </ItemGroup>
 
