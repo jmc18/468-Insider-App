@@ -22,6 +22,10 @@ namespace _468Insider.Core
         /// <returns></returns>
         public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration configuration)
         {
+
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddMediatR(Assembly.GetExecutingAssembly());
+
             services.AddDbContext<Admin468InsiderDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("468InsiderDB")));
 
